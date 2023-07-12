@@ -67,6 +67,9 @@ class router
                         case 'addArtist':
                             $this->controller->addArtist($_POST,$_FILES);
                             break;
+                        case 'listArtist':
+                            $this->controller->listArtist($_POST,$_FILES);
+                            break;
                         default:
                             $this->controller->home();
                     }

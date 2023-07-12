@@ -14,7 +14,7 @@ $router->post('/login','login');
 $router->post('/logout','logout');
 $router->post('/addPlaylist','addPlaylist');
 $router->post('/addArtist','addArtist');
-
+$router->post('/listArtist','listArtist');
 
 
 

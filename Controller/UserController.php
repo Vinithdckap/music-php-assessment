@@ -53,4 +53,18 @@ class Controller {
         }
 
     }
+
+    public function listArtist($datas,$imgPath){
+//        print_r($datas);
+//        print_r($path);
+
+        $song =$datas['song_name'];
+        $image = $imgPath['song'];
+
+         $path= "views/uploadedFiles/";
+         $images = $path.$image['name'];
+         move_uploaded_file($image['tmp_name'],$images);
+
+         $alldetails = $this->model->songUploading($song,$images);
+    }
 }

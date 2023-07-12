@@ -12,8 +12,8 @@
             <label for="artist_name">Artist Name</label>
                     <select name="artist" id="artist">
                         <option value="">select</option>
-                        <option value="">gv prakash</option>
-                        <option value="">ar rahaman</option>
+                        <option value="gv prakash">gv prakash</option>
+                        <option value="ar rahaman">ar rahaman</option>
                         <?php foreach ($artist_name as $artist): ?>
                                 <option value="<?php echo$artist->id?>"><?php echo$artist->artist_name?></option>
                             <?php endforeach;?>

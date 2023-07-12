@@ -54,7 +54,7 @@
             border-radius: 5px;
             border: none;
             font-size: 24px;
-            font-weight: 700px;
+            font-weight: 700;
             background-color: lightblue;
         }
         button.logout {
@@ -66,7 +66,7 @@
             border-radius: 5px;
             border: none;
             font-size: 24px;
-            font-weight: 700px;
+            font-weight: 700;
             background-color: lightblue;
         }
         .bg-light {

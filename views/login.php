@@ -37,8 +37,6 @@
             display: flex;
             margin-top: 20px;
             font-size: 18px;
-            font-weight: 579px;
-
         }
 
         form input {

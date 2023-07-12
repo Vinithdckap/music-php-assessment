@@ -54,4 +54,9 @@ class Model extends data{
             die($e->getMessage());
         }
     }
+
+    public function songUploading($song,$images){
+        print_r($song,$images);
+//        $this->db->query("INSERT INTO ");
+    }
 }
